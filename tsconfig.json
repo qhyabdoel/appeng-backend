@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-  "module": "commonjs",
+    "module": "commonjs",
     "target": "esnext",
     "types": [],
     // For nodejs:
@@ -35,13 +35,13 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-  "isolatedModules": true,
-  "noUncheckedSideEffectImports": true,
-  "moduleDetection": "force",
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
     "skipLibCheck": true,
 
-  "esModuleInterop": true,
-  "allowSyntheticDefaultImports": true,
-  "moduleResolution": "node"
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node"
   }
 }
