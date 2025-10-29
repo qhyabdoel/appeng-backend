@@ -53,6 +53,7 @@ GET /api/random-users?results=10&page=1
 ## ⚙️ Setup
 
 npm install
+
 npm run dev
 
 Server runs at http://localhost:3000
